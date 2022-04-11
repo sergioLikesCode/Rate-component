@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.rating-component,
+.result-card {
+  padding: 25px;
+  color: #fff;
+  background-color: hsl(213, 19%, 18%);
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.star-box,
+.rate-component input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(214, 13%, 24%);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.info p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+}
+
+.rate-component input {
+  outline: none;
+  border: 0;
+  color: hsl(216, 12%, 54%);
+  font-weight: bold;
+  font-size: 17px;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.rate-component {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-button {
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+.rate-component .input {
+  display: flex;
+}
+
+.star-box {
+  margin-bottom: 25px;
+}
+
+.info h1 {
+  margin-bottom: 20px;
+}
+
+.input input {
+  margin: 25px 10px;
+  cursor: pointer;
+}
+
+.input input:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: #fff;
+}
+
+/* Result Card */
+
+.result-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result-card .result {
+  width: 200px;
+  background-color: hsl(214, 13%, 24%);
+  color: hsl(25, 97%, 53%);
+  padding: 5px 0px;
+  border-radius: 15px;
+  font-size: 17px;
+  text-align: center;
+  margin: 35px 0px;
+}
+
+.result-card img {
+  width: 200px;
+}
+.result-card h2 {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.result-card p {
+  color: hsl(217, 12%, 63%);
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+
+.rate-component .active {
+  background-color: hsl(25, 97%, 53%);
+  color: #FFF;
+}
+
+.rate-component .active:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: #FFF;
+}
